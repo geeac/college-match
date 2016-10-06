@@ -1538,15 +1538,19 @@ Site Navigation
 
 .front-page-2 .image-section {
 	background: #fa5738;
-	padding: 60px 0 20px;
+	padding: 20px 0 0;
+}
+
+.front-page-2 .image-section .flexible-widgets .enews-widget{
+	margin-bottom: 0;
 }
 
 .front-page-2 {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: -160px;
+	/*margin-top: -160px;*/
 	position: relative;
-	width: 1000px;
+	/*width: 1000px;*/
 }
 
 .front-page-2 h4 {
@@ -1709,6 +1713,15 @@ Site Navigation
 	list-style-type: disc;
 	margin-left: 24px;
 	margin-bottom: 5px;
+}
+.home .bne-testimonial-heading, 
+.home h3.bne-testimonial-heading, 
+.home h4.bne-testimonial-heading{
+	font-size: 32px;
+	line-height: 2em;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
 }
 
 /* Dashicons
